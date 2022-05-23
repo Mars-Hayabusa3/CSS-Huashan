@@ -1,0 +1,147 @@
+@media screen and (min-width: 960px) {
+    .card-mainVision {
+        height: 55vh;
+    }
+
+    .img-wrap {
+        height: 100%;
+        background-image: url(./images/main-visual.jpg);
+        background-size: cover;
+        background-position: center center;
+    }
+
+    .card-720deg {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .card-720deg img {
+        height: 150px;
+        object-fit: cover;
+        object-position: center center;
+    }
+
+    .card-green-storehz img {
+        height: 300px;
+        object-fit: cover;
+        object-position: center center;
+        overflow: hidden;
+    }
+
+    .shop-list {
+        justify-content: space-between;
+    }
+
+    .shop-list-box {
+        flex-basis: 24%;
+    }
+
+    .shop-list-header-r,
+    .shop-list-header-y,
+    .shop-list-header-g,
+    .shop-list-header-b {
+        height: inherit;
+    }
+
+    .shop-list-header-b {
+        padding: 12px 14px 60px;
+    }
+
+    .card-image-list>div.card-box:nth-child(4) {
+        margin-right: 0;
+    }
+
+    .footer-main {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+
+    .footer-main>div {
+        margin-right: 60px;
+    }
+
+    .epaper-subscr {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+    }
+
+    .epaper-subscr .epaper-flex {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .epaper-subscr .epaper-flex .EmailEnter {
+        width: 220px;
+    }
+}
+
+@media screen and (min-width: 576px) {
+
+    .swiper-flex {
+        justify-content: center;
+    }
+
+    .swiper-flex>div {
+        flex: 0 0 30%;
+    }
+
+    .card-agenda .agenda-body {
+        display: flex;
+        justify-content: center;
+    }
+
+    .card-agenda .agenda-body .agenda-item {
+        flex: 0 0 32%;
+        margin-top: 0;
+        border-bottom: none;
+    }
+
+    .card-agenda .agenda-body .agenda-item {
+        border-left: 1px solid #e0e0e0;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .card-agenda .agenda-body .agenda-item:nth-child(1) {
+        border-left: none;
+        padding-left: 0;
+    }
+
+    .card-agenda .agenda-body .agenda-item:nth-child(3) {
+        padding-right: 0;
+    }
+
+    .agenda-item p.agenda-title {
+        overflow: hidden;
+    }
+
+    .theater img {
+        width: 280px;
+        height: 157px;
+    }
+
+    .theater {
+        margin: 50px auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .theater .theater-flex {
+        display: flex;
+    }
+
+    .card-image-list>div.card-box {
+        width: 22vw;
+        height: 22vw;
+    }
+
+    .card-image-list>div.card-box {
+        margin-right: 5px;
+        margin-bottom: 0;
+    }
+}
